@@ -20,10 +20,6 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Specifications
 
-* Program only accepts numerical values
-  - Example Input: "Hey"
-  - Example Output: [ ]
-
 * Program replaces 0 with "Beep!"
  - Example Input: 0
  - Example Output: ["Beep"]
@@ -35,8 +31,6 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 * Program replaces anything that's divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that"
  - Example Input: 3
  - Example Output: ["I'm sorry, Dave. I'm afraid I can't do that."]
-
- Accepts value range of 0-100.
 
 
 ## Technologies Used
