@@ -1,14 +1,18 @@
 var userInput = "";
 
-if (userInput === "0") {
-  alert ("HEY YOU GOT A BOOP");
-}
+
+// var endEnd = function(userInput) {
+//
+// }
 
 
 $(document).ready(function() {
   $("form#input").submit(function(event) {
     event.preventDefault();
-    console.log("SUBMIT DIS")
+
+    var userInput = parseInt($("input#numberInput").val());
+    // var result = endEnd(UserInput);
+    // $("#outputResult").text(result);
 
   });
 });
