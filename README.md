@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+A webpage displaying a user input where the user inputs a number. And depending on if it fulfills certain requirements then it will output a beep, boop, or something else.
 
 ## Setup/Installation Requirements
 
