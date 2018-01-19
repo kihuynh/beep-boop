@@ -8,7 +8,7 @@ function shit(number) {
   var numberResult = [];
   var beep = "Beep";
   var boop = "Boop";
-  var beepieBoops = "That's not how I work";
+  var beepieBoops = "That's not how I work.";
   var ahShit = "Sorry Dave. You don't pay me enough to do this";
 
   for ( i = 0; i <= number; i++) {
@@ -30,8 +30,11 @@ $(document).ready(function() {
   $("form#input").submit(function(event) {
     event.preventDefault();
 
+
     var number = parseInt($("input#numberInput").val());
     var result = shit(number);
+
+    $("form#input").trigger('reset');
     $("#outputResult").text(result);
   });
 });
