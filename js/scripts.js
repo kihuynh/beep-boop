@@ -8,17 +8,17 @@ function shit(number) {
   var numberResult = [];
   var beep = "Beep";
   var boop = "Boop";
-  var ahShit = "I can't do that. Bugger off";
+  var ahShit = "Sorry Dave. You don't pay me enough to do this";
 
   for ( i = 0; i <= number; i++) {
     if (number === 0) {
-      return ("beep");
+      return alert(boop);
     } else if (number === 1) {
       return alert (boop);
     } else if (number % 3 === 0) {
       return alert (ahShit);
     } else
-    return alert ("Go away. I don't work like this.");
+    return alert ("Go away. I can't work in these conditions");
   }
 
 };
