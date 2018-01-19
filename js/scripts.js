@@ -1,5 +1,9 @@
-function inputValues() {
-  var range = /[0-100]/g;
-  var numbers = range.val();
 
-}
+
+
+$(document).ready(function() {
+  $("form#input").submit(function(event) {
+    event.preventDefault();
+    console.log("SUBMIT DIS")
+  });
+});

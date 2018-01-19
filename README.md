@@ -2,7 +2,7 @@
 
 #### Webpage that takes a number and returns , 1.19.2018
 
-#### By _**{List of contributors}**_
+#### By Kimberly Huynh
 
 ## Description
 
@@ -36,7 +36,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
  - Example Input: 3
  - Example Output: ["I'm sorry, Dave. I'm afraid I can't do that."]
 
- Accepts value range of 0-100. 
+ Accepts value range of 0-100.
 
 ## Support and contact details
 
@@ -53,4 +53,4 @@ _{Let people know what to do if they run into any issues or have questions, idea
 
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 ** Kimberly Huynh **
